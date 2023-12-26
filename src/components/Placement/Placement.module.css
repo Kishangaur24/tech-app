@@ -1,0 +1,13 @@
+.main{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.company{
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
