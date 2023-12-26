@@ -1,31 +1,31 @@
-import React from 'react'
-
-const Carousel = () => {
+import Carousel from 'react-bootstrap/Carousel';
+// import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import style from "./Carousel.module.css"
+function UncontrolledExample() {
   return (
-    <div>
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://tse1.mm.bing.net/th?id=OIP.MEP8oZA5TJVQMjd9ETNpGgHaEK&pid=Api&P=0&h=180" height="500px" alt="First slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://tse4.mm.bing.net/th?id=OIP.z-GapGn3rCFpfo9Vdni3GgHaD4&pid=Api&P=0&h=180" height="500px" alt="Second slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://tse3.mm.bing.net/th?id=OIP.lbtMgJK7ZGPZaAFakZ_ynAHaEH&pid=Api&P=0&h=180" height="500px" alt="Third slide"/>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-  )
+    <Carousel>
+      <Carousel.Item>
+       <img src='https://img.freepik.com/premium-photo/internet-business-technology-network-concept-sap-system-software-automation-concept-virtual-screen-data-center_438099-7798.jpg?size=626&ext=jpg&ga=GA1.1.1226486228.1677065888&semt=ais' width="100%" height="450px"/>
+        <Carousel.Caption>
+          <h3 className={style.main}>"BOOST YOUR CAREER IN SAP"</h3>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src='https://img.freepik.com/free-vector/gradient-top-view-laptop-background_52683-6162.jpg?size=626&ext=jpg&ga=GA1.1.1226486228.1677065888&semt=ais' width="100%" height="450px"/>
+        <Carousel.Caption>
+          <h3 className={style.main}>WITH NO. 1 SAP TRAINING PROVIDER IN INDIA</h3>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src='https://img.freepik.com/free-photo/person-using-ai-tool-job_23-2150714249.jpg?size=626&ext=jpg&ga=GA1.1.1226486228.1677065888&semt=ais' width="100%" height="450px"/>
+        <Carousel.Caption>
+          <h3 className={style.main}>100% Placement assistence</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-export default Carousel
+export default UncontrolledExample;
