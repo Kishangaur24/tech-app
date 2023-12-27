@@ -8,7 +8,7 @@ const YouTubeVideo = () => {
   // Options for the YouTube player (e.g., player height, width, etc.)
   const opts = {
     height: '350',
-    width: '450',
+    width: '370',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 0, // Change to 1 to autoplay
