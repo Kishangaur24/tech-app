@@ -4,6 +4,7 @@ import Carousel from '../components/Carousel/Carousel'
 import Placement from '../components/Placement/Placement'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SapModule from '../components/SapModule/SapModule'
+import GetInTouch from '../components/GetInTouch/GetInTouch'
 // import Header1 from '../components/Header/Header'
 
 const HomePage = () => {
@@ -11,8 +12,9 @@ const HomePage = () => {
     <div>
      <Header/>
      <Carousel/>
-     <Placement/>
      <SapModule/>
+     <Placement/>
+     <GetInTouch/>
     </div>
   )
 }
