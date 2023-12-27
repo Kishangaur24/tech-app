@@ -14,6 +14,9 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     padding: 2rem;
     gap: 2rem;
 }
+.company img{
+    height: 6rem;
+}
 @media screen and (max-width:480px) {
     .company img{
         height: 50px;
