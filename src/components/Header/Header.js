@@ -17,7 +17,7 @@ function BasicExample() {
             
           <Nav.Link as={NavLink}  to="/faq">SAP Certificate Path</Nav.Link>
           <Nav.Link as={NavLink}  to="/upcomingWebinar">Upcoming Webinar</Nav.Link>
-          <Nav.Link as={NavLink}  to="/">Free SAP Resourses</Nav.Link>
+          <Nav.Link as={NavLink}  to="/registration">Register now</Nav.Link>
           <Nav.Link as={NavLink}  to="/success">Success Stories</Nav.Link>
           </Nav>
         </Navbar.Collapse>

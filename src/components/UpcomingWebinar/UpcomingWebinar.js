@@ -10,7 +10,7 @@ function UpcomingWebinars() {
       date: 'January 15, 2024',
       time: '10:00 AM - 12:00 PM',
       description: 'Join us to learn advanced techniques in SAP HANA.',
-      registrationLink: 'https://example.com/register', // Replace with actual registration link
+     
     },
     {
       id: 2,
@@ -18,9 +18,9 @@ function UpcomingWebinars() {
       date: 'February 5, 2024',
       time: '9:30 AM - 11:30 AM',
       description: 'Discover the basics of SAP S/4HANA and its benefits.',
-      registrationLink: 'https://example.com/register', // Replace with actual registration link
+  
     },
-    // Add more webinar data as needed
+   
   ];
 
   const navigate = useNavigate()

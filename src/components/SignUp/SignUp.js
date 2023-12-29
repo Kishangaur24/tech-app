@@ -52,9 +52,7 @@ const SignUp = () => {
     setContact("");
   };
 
-  const handleLogin = () => {
-    navigate("/login");
-  };
+ 
 
   return (
     <div className={style.main}>
